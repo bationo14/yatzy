@@ -15,7 +15,7 @@ public class PlayYatzy {
 
     private List<Integer> dices = new ArrayList<>();
     private Category category;
-    private AbstractFactory yatzyAbstractFactory = new YatzyAbstractFactory();
+    private final AbstractFactory yatzyAbstractFactory = new YatzyAbstractFactory();
 
     public PlayYatzy() {
     }
